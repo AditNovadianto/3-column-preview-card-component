@@ -1,0 +1,164 @@
+html {
+  --Very-light-gray: hsl(0, 0%, 95%);
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+}
+
+body {
+  font-family: "Big Shoulders Display", cursive;
+  /* font-family: "Lexend Deca", sans-serif; */
+  flex-direction: column;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+}
+
+.gambar1 {
+  width: 60px;
+  height: 40px;
+  background-image: url(images/icon-sedans.svg);
+  background-size: cover;
+}
+
+.box1 {
+  width: 200px;
+  height: 400px;
+  background-color: var(--Bright-orange);
+  padding: 35px;
+}
+
+.judul {
+  margin-top: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--Very-light-gray);
+}
+
+.isi {
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 30px;
+  color: var(--Transparent-white);
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.object {
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 95px;
+  border-radius: 20px;
+  width: 120px;
+  height: 35px;
+  background-color: var(--Very-light-gray);
+  text-align: center;
+  line-height: 35px;
+  font-size: 13px;
+  color: var(--Bright-orange);
+}
+
+.box2 {
+  width: 200px;
+  height: 400px;
+  background-color: var(--Dark-cyan);
+  padding: 35px;
+}
+
+.gambar2 {
+  width: 60px;
+  height: 40px;
+  background-image: url(images/icon-suvs.svg);
+  background-size: cover;
+}
+
+.judul1 {
+  margin-top: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--Very-light-gray);
+}
+
+.isi1 {
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 30px;
+  color: var(--Transparent-white);
+  line-height: 25px;
+  font-size: 14.2px;
+}
+
+.object1 {
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 95px;
+  border-radius: 20px;
+  width: 120px;
+  height: 35px;
+  background-color: var(--Very-light-gray);
+  text-align: center;
+  line-height: 35px;
+  font-size: 13px;
+  color: var(--Dark-cyan);
+}
+
+.box3 {
+  width: 200px;
+  height: 400px;
+  background-color: var(--Very-dark-cyan);
+  padding: 35px;
+}
+
+.gambar3 {
+  width: 60px;
+  height: 40px;
+  background-image: url(images/icon-luxury.svg);
+  background-size: cover;
+}
+
+.judul2 {
+  margin-top: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--Very-light-gray);
+}
+
+.isi2 {
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 30px;
+  color: var(--Transparent-white);
+  line-height: 25px;
+  font-size: 14.2px;
+}
+
+.object2 {
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 95px;
+  border-radius: 20px;
+  width: 120px;
+  height: 35px;
+  background-color: var(--Very-light-gray);
+  text-align: center;
+  line-height: 35px;
+  font-size: 13px;
+  color: var(--Very-dark-cyan);
+}
+
+.attribution {
+  font-family: "Lexend Deca", sans-serif;
+  display: flex;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+}
