@@ -155,6 +155,7 @@ body {
   font-family: "Lexend Deca", sans-serif;
   display: flex;
   text-align: center;
+  color: var(--Very-dark-cyan);
 }
 
 @media (max-width: 500px) {
